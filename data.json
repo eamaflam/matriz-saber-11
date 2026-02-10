@@ -3,37 +3,257 @@
     {
       "id": 1,
       "tema": "Cinemática (MRU)",
-      "dba": "DBA 1 (G10): Comprende que el reposo o el movimiento rectilíneo uniforme...",
+      "dba": "DBA 1 (G10): Comprende que el reposo o el movimiento rectilíneo uniforme se presentan cuando las fuerzas aplicadas sobre el sistema se anulan entre sí.",
       "nivel": "Interpretativo",
       "dificultad": "Media",
       "clave": "B",
-      "justificacion": "En una gráfica de Posición vs. Tiempo, una línea recta inclinada indica velocidad constante. Si la pendiente es cero, el objeto está en reposo.",
+      "justificacion": "En una gráfica de Posición vs. Tiempo, una línea recta inclinada indica velocidad constante. Si la pendiente es cero (línea horizontal), el objeto está en reposo.",
       "rec_estudiante": "Repasar la interpretación de gráficas de posición vs. tiempo. Diferenciar entre pendiente (velocidad) y altura (posición).",
-      "rec_docente": "Implementar laboratorios con sensores de movimiento o simuladores (PhET)."
+      "rec_docente": "Implementar laboratorios con sensores de movimiento o simuladores (PhET) para correlacionar el movimiento real con la generación de la gráfica en tiempo real."
     },
     {
       "id": 2,
       "tema": "Cinemática (MRUA)",
-      "dba": "DBA 1 (G10): Predice el movimiento de un cuerpo a partir de las expresiones matemáticas...",
+      "dba": "DBA 1 (G10): Predice el movimiento de un cuerpo a partir de las expresiones matemáticas.",
       "nivel": "Argumentativo",
       "dificultad": "Alta",
       "clave": "C",
-      "justificacion": "La aceleración es el cambio de velocidad en el tiempo. Si la velocidad aumenta linealmente, la aceleración es constante y positiva.",
-      "rec_estudiante": "Practicar el cálculo de pendientes en gráficas de velocidad vs. tiempo.",
-      "rec_docente": "Reforzar el concepto de aceleración como 'tasa de cambio de velocidad'."
+      "justificacion": "La aceleración es el cambio de velocidad en el tiempo (a = Δv/t). Se requiere identificar que si la velocidad aumenta linealmente, la aceleración es constante y positiva.",
+      "rec_estudiante": "Practicar el cálculo de pendientes en gráficas de velocidad vs. tiempo y relacionarlas con la aceleración media.",
+      "rec_docente": "Reforzar el concepto de aceleración como 'tasa de cambio de velocidad' y no solo como 'ir rápido'. Usar ejemplos de frenado (aceleración negativa)."
+    },
+    {
+      "id": 3,
+      "tema": "Caída Libre",
+      "dba": "DBA 1 (G10): Comprende que la aceleración debida a la gravedad es constante cerca de la superficie terrestre.",
+      "nivel": "Propositivo",
+      "dificultad": "Baja",
+      "clave": "A",
+      "justificacion": "En ausencia de resistencia del aire (vacío ideal o cuerpos densos a baja altura), todos los cuerpos caen con la misma aceleración (g), independientemente de su masa.",
+      "rec_estudiante": "Recordar que en caída libre ideal, la masa no afecta el tiempo de caída; solo importa la altura.",
+      "rec_docente": "Realizar demostraciones de 'caída en vacío' (o videos del tubo de Newton) para romper la intuición errónea de que los objetos pesados caen más rápido."
+    },
+    {
+      "id": 4,
+      "tema": "Mov. Parabólico",
+      "dba": "DBA 1 (G10): Describe el movimiento de cuerpos en dos dimensiones.",
+      "nivel": "Interpretativo",
+      "dificultad": "Alta",
+      "clave": "D",
+      "justificacion": "En el punto más alto de una trayectoria parabólica, la velocidad vertical (Vy) es cero, pero la velocidad horizontal (Vx) es constante y distinta de cero. La aceleración es siempre g (hacia abajo).",
+      "rec_estudiante": "Estudiar la descomposición vectorial del movimiento. Recordar que la gravedad siempre actúa, incluso en el punto más alto.",
+      "rec_docente": "Utilizar diagramas de vectores paso a paso en el tablero mostrando cómo cambia Vy mientras Vx y g permanecen constantes."
+    },
+    {
+      "id": 5,
+      "tema": "Mov. Semiparabólico",
+      "dba": "DBA 1 (G10): Relaciona las variables de posición, velocidad y aceleración.",
+      "nivel": "Argumentativo",
+      "dificultad": "Media",
+      "clave": "B",
+      "justificacion": "El tiempo de vuelo en un lanzamiento horizontal depende exclusivamente de la altura desde la que cae (y), no de la velocidad horizontal inicial (Vx).",
+      "rec_estudiante": "Reforzar las ecuaciones de caída libre. Comprender el principio de independencia de movimientos (Galileo).",
+      "rec_docente": "Realizar la práctica de lanzar dos objetos simultáneamente (uno dejado caer y otro lanzado horizontalmente) para ver que tocan el suelo al tiempo."
+    },
+    {
+      "id": 6,
+      "tema": "Dinámica (1ª Ley)",
+      "dba": "DBA 2 (G10): Comprende que el reposo o el movimiento rectilíneo uniforme se presentan cuando las fuerzas se anulan.",
+      "nivel": "Interpretativo",
+      "dificultad": "Baja",
+      "clave": "A",
+      "justificacion": "La inercia es la propiedad de los cuerpos de mantener su estado de movimiento. Al frenar el bus, los pasajeros siguen moviéndose a la velocidad que traían.",
+      "rec_estudiante": "Diferenciar entre fuerza e inercia. La inercia no es una fuerza que te empuja, es tu propia masa resistiéndose al cambio.",
+      "rec_docente": "Usar situaciones cotidianas (frenadas bruscas en Transmilenio/Bus, cinturones de seguridad) para vivenciar la Ley de Inercia."
+    },
+    {
+      "id": 7,
+      "tema": "Dinámica (2ª Ley)",
+      "dba": "DBA 2 (G10): Predice el equilibrio o la aceleración de un cuerpo (F=ma).",
+      "nivel": "Argumentativo",
+      "dificultad": "Media",
+      "clave": "C",
+      "justificacion": "Según F=ma, si aplicamos la misma fuerza a una masa mayor, la aceleración será menor (inversamente proporcionales).",
+      "rec_estudiante": "Analizar la ecuación F=ma proporcionalmente. ¿Qué pasa con a si m se duplica y F es constante?",
+      "rec_docente": "Trabajar con carritos dinámicos variando la masa (agregando pesas) y manteniendo la fuerza (mismo elástico) para observar el cambio en velocidad."
+    },
+    {
+      "id": 8,
+      "tema": "Estática",
+      "dba": "DBA 2 (G10): Identifica las fuerzas que actúan sobre un cuerpo (DCL).",
+      "nivel": "Interpretativo",
+      "dificultad": "Alta",
+      "clave": "B",
+      "justificacion": "En un sistema en equilibrio (lámpara colgada), la tensión del cable debe igualar el peso del objeto para que la suma de fuerzas sea cero.",
+      "rec_estudiante": "Practicar Diagramas de Cuerpo Libre (DCL). Entender que 'reposo' significa suma de fuerzas igual a cero.",
+      "rec_docente": "Enfatizar la importancia de dibujar todas las fuerzas antes de plantear ecuaciones. Usar dinamómetros colgados para visualizar la tensión."
+    },
+    {
+      "id": 9,
+      "tema": "DCL (Vel. Constante)",
+      "dba": "DBA 2 (G10): Establece condiciones para que un cuerpo se mueva con velocidad constante.",
+      "nivel": "Propositivo",
+      "dificultad": "Media",
+      "clave": "D",
+      "justificacion": "Si un objeto se mueve a velocidad constante (sin aceleración), la fuerza neta debe ser cero. La fuerza aplicada debe ser igual y opuesta a la fuerza de fricción.",
+      "rec_estudiante": "Comprender que 'Velocidad Constante' es dinámicamente equivalente a 'Reposo' en cuanto a fuerzas (Sum F = 0).",
+      "rec_docente": "Debatir la diferencia entre 'moverse' (velocidad) y 'empezar a moverse' (aceleración). El caso del paracaidista en velocidad terminal es un buen ejemplo."
+    },
+    {
+      "id": 10,
+      "tema": "Dinámica (3ª Ley)",
+      "dba": "DBA 2 (G10): Analiza situaciones en las que se presentan fuerzas de acción y reacción.",
+      "nivel": "Argumentativo",
+      "dificultad": "Baja",
+      "clave": "C",
+      "justificacion": "La 3ª Ley de Newton establece que las fuerzas siempre ocurren en pares de igual magnitud y dirección opuesta, actuando sobre cuerpos diferentes.",
+      "rec_estudiante": "Recordar: La fuerza es una interacción, no una propiedad. Si A golpea a B, B golpea a A con la misma intensidad.",
+      "rec_docente": "Usar patines o patinetas: si un estudiante empuja a otro, ambos se mueven hacia atrás. Mostrar que la fuerza es mutua."
     }
   ],
   "matematicas": [
     {
       "id": 1,
-      "tema": "Trigonometría",
+      "tema": "Trigonometría (Triángulos)",
       "dba": "DBA 4 (G10): Resuelve problemas mediante el uso de razones trigonométricas.",
       "nivel": "Interpretativo",
       "dificultad": "Media",
       "clave": "A",
-      "justificacion": "Se usa la relación seno/coseno en triángulo rectángulo.",
+      "justificacion": "Se usa la relación seno/coseno en triángulo rectángulo para hallar un cateto.",
       "rec_estudiante": "Repasar SOH-CAH-TOA y teorema de Pitágoras.",
       "rec_docente": "Usar clinómetros caseros para medir alturas reales en el colegio."
+    },
+    {
+      "id": 2,
+      "tema": "Ley de Senos",
+      "dba": "DBA 4 (G10): Aplica leyes de senos y cosenos en triángulos oblicuángulos.",
+      "nivel": "Argumentativo",
+      "dificultad": "Alta",
+      "clave": "C",
+      "justificacion": "Relación a/sinA = b/sinB. Permite resolver triángulos no rectángulos.",
+      "rec_estudiante": "Practicar despeje de ecuaciones con funciones trigonométricas.",
+      "rec_docente": "Plantear problemas de navegación o triangulación geográfica."
+    },
+    {
+      "id": 3,
+      "tema": "Funciones Lineales",
+      "dba": "DBA 3 (G11): Modela situaciones de variación con funciones.",
+      "nivel": "Propositivo",
+      "dificultad": "Baja",
+      "clave": "B",
+      "justificacion": "y = mx + b. La pendiente constante indica una tasa de cambio uniforme.",
+      "rec_estudiante": "Diferenciar crecimiento lineal vs. exponencial.",
+      "rec_docente": "Analizar facturas de servicios públicos (cargo fijo + consumo)."
+    },
+    {
+      "id": 4,
+      "tema": "Función Exponencial",
+      "dba": "DBA 3 (G11): Analiza el crecimiento exponencial.",
+      "nivel": "Interpretativo",
+      "dificultad": "Alta",
+      "clave": "D",
+      "justificacion": "Crecimiento porcentual constante (P = P0 * (1+r)^t). Característico de poblaciones o intereses.",
+      "rec_estudiante": "Entender el interés compuesto y crecimiento poblacional.",
+      "rec_docente": "Usar ejemplos de virus/bacterias o crecimiento de seguidores en redes sociales."
+    },
+    {
+      "id": 5,
+      "tema": "Función Cuadrática",
+      "dba": "DBA 3 (G11): Identifica características de gráficas (parábolas).",
+      "nivel": "Argumentativo",
+      "dificultad": "Media",
+      "clave": "A",
+      "justificacion": "El vértice representa un máximo o mínimo. El eje de simetría divide la parábola.",
+      "rec_estudiante": "Hallar vértices y cortes con ejes sin depender de tabla de valores.",
+      "rec_docente": "Lanzamiento de proyectiles (conectar con Física)."
+    },
+    {
+      "id": 6,
+      "tema": "Periodo Trigonométrico",
+      "dba": "DBA 4 (G10): Reconoce características de funciones seno/coseno.",
+      "nivel": "Interpretativo",
+      "dificultad": "Alta",
+      "clave": "C",
+      "justificacion": "T = 2π / B. Determina la frecuencia de repetición de la onda.",
+      "rec_estudiante": "Visualizar cómo A, B, C afectan A*sin(Bx+C).",
+      "rec_docente": "Usar software (Geogebra) para modificar parámetros en vivo."
+    },
+    {
+      "id": 7,
+      "tema": "Geometría (Círculo)",
+      "dba": "DBA 5 (G10): Geometría Analítica.",
+      "nivel": "Propositivo",
+      "dificultad": "Media",
+      "clave": "B",
+      "justificacion": "(x-h)^2 + (y-k)^2 = r^2. Relaciona algebraicamente la forma geométrica.",
+      "rec_estudiante": "Completar cuadrados para hallar centro y radio.",
+      "rec_docente": "Diseñar logotipos usando ecuaciones de cónicas."
+    },
+    {
+      "id": 8,
+      "tema": "Estadística (Media)",
+      "dba": "DBA 2 (G11): Medidas de tendencia central.",
+      "nivel": "Interpretativo",
+      "dificultad": "Baja",
+      "clave": "A",
+      "justificacion": "Promedio simple: suma de datos dividido por el total.",
+      "rec_estudiante": "Calcular promedios con datos agrupados y no agrupados.",
+      "rec_docente": "Analizar notas reales de clase para ver el promedio."
+    },
+    {
+      "id": 9,
+      "tema": "Estadística (Mediana)",
+      "dba": "DBA 2 (G11): Interpretación de datos.",
+      "nivel": "Argumentativo",
+      "dificultad": "Media",
+      "clave": "C",
+      "justificacion": "Valor central al ordenar los datos de menor a mayor. Resistente a valores extremos.",
+      "rec_estudiante": "Diferenciar cuándo usar media vs. mediana (datos atípicos).",
+      "rec_docente": "Usar datos de salarios (desigualdad) para ver el efecto de la mediana."
+    },
+    {
+      "id": 10,
+      "tema": "Probabilidad Simple",
+      "dba": "DBA 2 (G11): Cálculo de probabilidades básicas.",
+      "nivel": "Propositivo",
+      "dificultad": "Baja",
+      "clave": "B",
+      "justificacion": "Probabilidad = Casos favorables / Casos totales.",
+      "rec_estudiante": "Diagramas de árbol y técnicas de conteo.",
+      "rec_docente": "Juegos de azar (dados, cartas) para calcular probabilidades."
+    },
+    {
+      "id": 11,
+      "tema": "Histograma (Stats)",
+      "dba": "DBA 2 (G11): Interpretación de gráficos estadísticos.",
+      "nivel": "Interpretativo",
+      "dificultad": "Media",
+      "clave": "D",
+      "justificacion": "El área de las barras representa la frecuencia de datos en intervalos continuos.",
+      "rec_estudiante": "Leer e interpretar ejes en histogramas de frecuencias.",
+      "rec_docente": "Analizar pirámides poblacionales del DANE."
+    },
+    {
+      "id": 12,
+      "tema": "Desviación Estándar",
+      "dba": "DBA 2 (G11): Medidas de dispersión.",
+      "nivel": "Argumentativo",
+      "dificultad": "Alta",
+      "clave": "A",
+      "justificacion": "Mide qué tan dispersos están los datos respecto al promedio. A mayor desviación, mayor variabilidad.",
+      "rec_estudiante": "Entender el concepto de 'variabilidad' y 'consistencia'.",
+      "rec_docente": "Comparar dos grupos de datos con igual promedio pero distinta dispersión."
+    },
+    {
+      "id": 13,
+      "tema": "Percentiles",
+      "dba": "DBA 2 (G11): Medidas de posición no central.",
+      "nivel": "Interpretativo",
+      "dificultad": "Alta",
+      "clave": "C",
+      "justificacion": "Valor bajo el cual se encuentra un porcentaje específico de los datos (ej: P90 supera al 90%).",
+      "rec_estudiante": "Interpretar resultados de pruebas Saber 11 (percentiles).",
+      "rec_docente": "Analizar curvas de crecimiento infantil (peso/talla)."
     }
   ],
   "quimica": [
@@ -47,19 +267,173 @@
       "justificacion": "Ley de Lavoisier: Átomos en reactivos deben ser iguales a átomos en productos.",
       "rec_estudiante": "Practicar balanceo por tanteo sistemático (Metal-NoMetal-H-O).",
       "rec_docente": "Usar fichas de LEGO o modelos moleculares para visualizar la conservación."
+    },
+    {
+      "id": 2,
+      "tema": "Estequiometría (Masa)",
+      "dba": "DBA 2 (G10): Realiza cálculos cuantitativos.",
+      "nivel": "Argumentativo",
+      "dificultad": "Alta",
+      "clave": "C",
+      "justificacion": "Relación molar -> masa molar. Se debe convertir gramos a moles para usar la ecuación balanceada.",
+      "rec_estudiante": "Dominar el concepto de MOL y Peso Molecular.",
+      "rec_docente": "Recetas de cocina: relacionar ingredientes con reactivos limitantes."
+    },
+    {
+      "id": 3,
+      "tema": "Enlaces Químicos",
+      "dba": "DBA 1 (G10): Explica propiedades según enlaces.",
+      "nivel": "Interpretativo",
+      "dificultad": "Media",
+      "clave": "A",
+      "justificacion": "El enlace iónico implica transferencia de electrones, mientras el covalente implica compartirlos.",
+      "rec_estudiante": "Repasar tabla periódica y electronegatividad (Pauling).",
+      "rec_docente": "Experimentos de conductividad eléctrica (sal vs azúcar en agua)."
+    },
+    {
+      "id": 4,
+      "tema": "Estructura Orgánica",
+      "dba": "DBA 4 (G11): Grupos funcionales orgánicos.",
+      "nivel": "Interpretativo",
+      "dificultad": "Media",
+      "clave": "D",
+      "justificacion": "Identificar el grupo hidroxilo (-OH) unido a un carbono saturado clasifica la sustancia como alcohol.",
+      "rec_estudiante": "Memorizar grupos funcionales básicos (Alcohol, Ácido, Amina).",
+      "rec_docente": "Construir modelos 3D de moléculas orgánicas sencillas."
+    },
+    {
+      "id": 5,
+      "tema": "Leyes de Gases",
+      "dba": "DBA 3 (G10): Comportamiento de gases ideales.",
+      "nivel": "Argumentativo",
+      "dificultad": "Alta",
+      "clave": "B",
+      "justificacion": "PV=nRT. Existe una relación inversa entre Presión y Volumen (Boyle) y directa entre Volumen y Temperatura (Charles).",
+      "rec_estudiante": "Recordar siempre convertir Celsius a Kelvin.",
+      "rec_docente": "Jeringas selladas: comprimir aire para sentir la presión (Ley de Boyle)."
+    },
+    {
+      "id": 6,
+      "tema": "Soluciones (% p/v)",
+      "dba": "DBA 3 (G10): Unidades de concentración.",
+      "nivel": "Propositivo",
+      "dificultad": "Media",
+      "clave": "C",
+      "justificacion": "% p/v = (masa soluto / volumen solución) * 100. Mide la proporción de soluto.",
+      "rec_estudiante": "Diferenciar soluto, solvente y solución total.",
+      "rec_docente": "Preparar bebidas en polvo calculando concentraciones reales."
+    },
+    {
+      "id": 7,
+      "tema": "Cinética (Reacción)",
+      "dba": "DBA 2 (G10): Factores que afectan velocidad.",
+      "nivel": "Argumentativo",
+      "dificultad": "Media",
+      "clave": "A",
+      "justificacion": "La temperatura aumenta la energía cinética de las moléculas, incrementando los choques efectivos.",
+      "rec_estudiante": "Analizar por qué la comida se guarda en la nevera (Temperatura).",
+      "rec_docente": "Experimento: pastilla efervescente entera vs triturada (Superficie)."
+    },
+    {
+      "id": 8,
+      "tema": "pH y Neutralización",
+      "dba": "DBA 2 (G10): Ácidos y bases.",
+      "nivel": "Propositivo",
+      "dificultad": "Alta",
+      "clave": "D",
+      "justificacion": "Reacción H+ + OH- -> H2O. El pH mide la concentración de iones hidrógeno en escala logarítmica.",
+      "rec_estudiante": "Entender la escala de pH y el uso de indicadores.",
+      "rec_docente": "Medir pH de sustancias caseras (limón, jabón, leche) con repollo morado."
     }
   ],
   "biologia": [
     {
       "id": 1,
       "tema": "Ecología (DBO)",
-      "dba": "DBA 5 (G10): Dinámica de ecosistemas y flujo de energía.",
+      "dba": "DBA 5 (G10): Dinámica de ecosistemas.",
       "nivel": "Interpretativo",
       "dificultad": "Alta",
       "clave": "C",
-      "justificacion": "DBO alto indica contaminación orgánica; las bacterias consumen el oxígeno disuelto.",
+      "justificacion": "DBO alto indica contaminación orgánica; las bacterias consumen el oxígeno disuelto para degradar la materia.",
       "rec_estudiante": "Relacionar calidad de agua con biodiversidad e indicadores químicos.",
       "rec_docente": "Visita a planta de tratamiento o análisis de agua local."
+    },
+    {
+      "id": 2,
+      "tema": "Redes Tróficas",
+      "dba": "DBA 5 (G10): Flujo de energía.",
+      "nivel": "Interpretativo",
+      "dificultad": "Baja",
+      "clave": "B",
+      "justificacion": "Las flechas indican la dirección del flujo de energía. Solo el 10% de la energía pasa al siguiente nivel.",
+      "rec_estudiante": "Dibujar redes tróficas locales (quién se come a quién).",
+      "rec_docente": "Juego de roles: 'La telaraña de la vida' con hilo."
+    },
+    {
+      "id": 3,
+      "tema": "Genética (Mendel)",
+      "dba": "DBA 3 (G11): Herencia y variabilidad.",
+      "nivel": "Argumentativo",
+      "dificultad": "Media",
+      "clave": "A",
+      "justificacion": "Cuadros de Punnett predicen probabilidades genotípicas y fenotípicas. La dominancia incompleta genera fenotipos intermedios.",
+      "rec_estudiante": "Practicar cruces genéticos y probabilidades (1:2:1).",
+      "rec_docente": "Usar rasgos físicos de la clase (lóbulo oreja, lengua) para ver frecuencias."
+    },
+    {
+      "id": 4,
+      "tema": "Osmosis (Celular)",
+      "dba": "DBA 4 (G11): Transporte membrana celular.",
+      "nivel": "Argumentativo",
+      "dificultad": "Alta",
+      "clave": "D",
+      "justificacion": "El agua se mueve de una zona de menor concentración de soluto a una de mayor concentración (hipotónico a hipertónico).",
+      "rec_estudiante": "Entender hipertónico, hipotónico e isotónico.",
+      "rec_docente": "Huevo en vinagre y luego en agua/miel (experimento clásico)."
+    },
+    {
+      "id": 5,
+      "tema": "Adaptación (Altitud)",
+      "dba": "DBA 1 (G11): Homeostasis y adaptación.",
+      "nivel": "Propositivo",
+      "dificultad": "Media",
+      "clave": "B",
+      "justificacion": "A mayor altitud hay menor presión de oxígeno, lo que estimula la producción de glóbulos rojos (aumento de hematocrito).",
+      "rec_estudiante": "Estudiar fisiología respiratoria y circulatoria básica.",
+      "rec_docente": "Analizar datos de deportistas entrenando en altura."
+    },
+    {
+      "id": 6,
+      "tema": "Selección Natural",
+      "dba": "DBA 1 (G11): Evolución de poblaciones.",
+      "nivel": "Argumentativo",
+      "dificultad": "Media",
+      "clave": "C",
+      "justificacion": "Sobreviven los individuos con características ventajosas para su entorno, transmitiéndolas a su descendencia.",
+      "rec_estudiante": "Diferenciar entre adaptación individual y evolución poblacional.",
+      "rec_docente": "Simulación de 'picos de pinzones' con herramientas y semillas."
+    },
+    {
+      "id": 7,
+      "tema": "Ingeniería Genética",
+      "dba": "DBA 3 (G11): Aplicaciones biotecnológicas.",
+      "nivel": "Propositivo",
+      "dificultad": "Alta",
+      "clave": "A",
+      "justificacion": "La modificación del ADN permite insertar genes de otras especies para conferir resistencia o producción de compuestos.",
+      "rec_estudiante": "Debate ético sobre transgénicos (OGM).",
+      "rec_docente": "Investigar casos reales (arroz dorado, insulina humana)."
+    },
+    {
+      "id": 8,
+      "tema": "Fotosíntesis",
+      "dba": "DBA 4 (G11): Metabolismo celular.",
+      "nivel": "Interpretativo",
+      "dificultad": "Media",
+      "clave": "B",
+      "justificacion": "Los cloroplastos captan energía lumínica. Los estomas regulan el intercambio gaseoso (CO2 y O2) y la transpiración.",
+      "rec_estudiante": "Ecuación general de la fotosíntesis (entradas y salidas).",
+      "rec_docente": "Observar estomas al microscopio (epidermis de hoja)."
     }
   ]
 }
