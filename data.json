@@ -1,0 +1,65 @@
+{
+  "fisica": [
+    {
+      "id": 1,
+      "tema": "Cinemática (MRU)",
+      "dba": "DBA 1 (G10): Comprende que el reposo o el movimiento rectilíneo uniforme...",
+      "nivel": "Interpretativo",
+      "dificultad": "Media",
+      "clave": "B",
+      "justificacion": "En una gráfica de Posición vs. Tiempo, una línea recta inclinada indica velocidad constante. Si la pendiente es cero, el objeto está en reposo.",
+      "rec_estudiante": "Repasar la interpretación de gráficas de posición vs. tiempo. Diferenciar entre pendiente (velocidad) y altura (posición).",
+      "rec_docente": "Implementar laboratorios con sensores de movimiento o simuladores (PhET)."
+    },
+    {
+      "id": 2,
+      "tema": "Cinemática (MRUA)",
+      "dba": "DBA 1 (G10): Predice el movimiento de un cuerpo a partir de las expresiones matemáticas...",
+      "nivel": "Argumentativo",
+      "dificultad": "Alta",
+      "clave": "C",
+      "justificacion": "La aceleración es el cambio de velocidad en el tiempo. Si la velocidad aumenta linealmente, la aceleración es constante y positiva.",
+      "rec_estudiante": "Practicar el cálculo de pendientes en gráficas de velocidad vs. tiempo.",
+      "rec_docente": "Reforzar el concepto de aceleración como 'tasa de cambio de velocidad'."
+    }
+  ],
+  "matematicas": [
+    {
+      "id": 1,
+      "tema": "Trigonometría",
+      "dba": "DBA 4 (G10): Resuelve problemas mediante el uso de razones trigonométricas.",
+      "nivel": "Interpretativo",
+      "dificultad": "Media",
+      "clave": "A",
+      "justificacion": "Se usa la relación seno/coseno en triángulo rectángulo.",
+      "rec_estudiante": "Repasar SOH-CAH-TOA y teorema de Pitágoras.",
+      "rec_docente": "Usar clinómetros caseros para medir alturas reales en el colegio."
+    }
+  ],
+  "quimica": [
+    {
+      "id": 1,
+      "tema": "Balanceo (Tanteo)",
+      "dba": "DBA 2 (G10): Comprende que la materia se conserva en reacciones químicas.",
+      "nivel": "Interpretativo",
+      "dificultad": "Baja",
+      "clave": "B",
+      "justificacion": "Ley de Lavoisier: Átomos en reactivos deben ser iguales a átomos en productos.",
+      "rec_estudiante": "Practicar balanceo por tanteo sistemático (Metal-NoMetal-H-O).",
+      "rec_docente": "Usar fichas de LEGO o modelos moleculares para visualizar la conservación."
+    }
+  ],
+  "biologia": [
+    {
+      "id": 1,
+      "tema": "Ecología (DBO)",
+      "dba": "DBA 5 (G10): Dinámica de ecosistemas y flujo de energía.",
+      "nivel": "Interpretativo",
+      "dificultad": "Alta",
+      "clave": "C",
+      "justificacion": "DBO alto indica contaminación orgánica; las bacterias consumen el oxígeno disuelto.",
+      "rec_estudiante": "Relacionar calidad de agua con biodiversidad e indicadores químicos.",
+      "rec_docente": "Visita a planta de tratamiento o análisis de agua local."
+    }
+  ]
+}

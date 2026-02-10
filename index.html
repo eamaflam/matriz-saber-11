@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz Técnica - Prueba Saber 11</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+    <div class="container mx-auto px-4 py-8">
+        <header class="mb-10 text-center">
+            <h1 class="text-4xl font-bold text-blue-900 mb-2">Matriz de Especificaciones</h1>
+            <p class="text-lg text-gray-600">Prueba Diagnóstica Saber 11 - Escuela Normal Superior</p>
+            <p class="text-sm text-gray-500 mt-2">Análisis de ítems, justificaciones y planes de mejora</p>
+        </header>
+
+        <div class="flex justify-center mb-6 overflow-x-auto">
+            <div class="bg-white p-1 rounded-lg shadow-sm border border-gray-200 inline-flex" id="tabs-container">
+                </div>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden border border-gray-200">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="bg-blue-50 text-blue-900 uppercase text-xs font-bold">
+                        <tr>
+                            <th class="p-4 border-b">#</th>
+                            <th class="p-4 border-b">Tema</th>
+                            <th class="p-4 border-b w-1/6">DBA</th> <th class="p-4 border-b text-center">Nivel</th>
+                            <th class="p-4 border-b text-center">Dif.</th>
+                            <th class="p-4 border-b text-center">Clave</th>
+                            <th class="p-4 border-b w-1/4">Análisis y Justificación</th>
+                            <th class="p-4 border-b w-1/6">Rec. Estudiante</th>
+                            <th class="p-4 border-b w-1/6">Rec. Docente</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body" class="text-sm text-gray-700">
+                        <tr>
+                            <td colspan="9" class="p-8 text-center text-gray-500">Cargando datos...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <footer class="mt-12 text-center text-xs text-gray-400">
+            <p>&copy; 2026 Escuela Normal Superior - Proyecto Operación Physicorum</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
