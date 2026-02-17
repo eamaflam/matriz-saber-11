@@ -111,151 +111,153 @@
       "rec_docente": "Usar patines o patinetas: si un estudiante empuja a otro, ambos se mueven hacia atrás. Mostrar que la fuerza es mutua."
     }
   ],
-  "matematicas": [
+
+"matematicas": [
     {
       "id": 1,
-      "tema": "Trigonometría (Triángulos)",
+      "tema": "Trigonometría (Triángulo Rectángulo)",
       "dba": "DBA 4 (G10): Resuelve problemas mediante el uso de razones trigonométricas.",
-      "nivel": "Interpretativo",
+      "nivel": "Propositivo",
       "dificultad": "Media",
-      "clave": "A",
-      "justificacion": "Se usa la relación seno/coseno en triángulo rectángulo para hallar un cateto.",
-      "rec_estudiante": "Repasar SOH-CAH-TOA y teorema de Pitágoras.",
-      "rec_docente": "Usar clinómetros caseros para medir alturas reales en el colegio."
+      "clave": "C",
+      "justificacion": "Se forma un triángulo rectángulo. El cateto opuesto (altura parcial) se halla con 20 * tan(θ). La altura total (H) requiere sumar la altura del teodolito (1,5 m). Expresión: H = 20*tan(θ) + 1,5.",
+      "rec_estudiante": "Recordar siempre sumar la altura del observador o del instrumento cuando se miden ángulos de elevación desde el suelo.",
+      "rec_docente": "Realizar prácticas de campo en el patio del colegio midiendo los árboles o canchas con un teodolito casero."
     },
     {
       "id": 2,
-      "tema": "Función Lineal (Análisis de Gráficas)",
-      "dba": "DBA 3 (G11): Modela situaciones de variación con funciones.",
+      "tema": "Función Lineal",
+      "dba": "DBA 3 (G11): Modela situaciones de variación con funciones lineales.",
       "nivel": "Interpretativo",
-      "dificultad": "Media",
+      "dificultad": "Baja",
       "clave": "A",
-      "justificacion": "El problema describe una función de la forma y = mx + b, donde el costo fijo ($50.000) es el intercepto con el eje Y (b), y el costo por kilómetro ($2.000) es la pendiente positiva (m). La gráfica correcta debe iniciar en 50.000 y subir progresivamente.",
-      "rec_estudiante": "Aprender a identificar en un problema de la vida real cuál es el valor constante (intercepto) y cuál es el valor que varía (pendiente).",
-      "rec_docente": "Usar ejemplos cotidianos locales, como tarifas de taxis, recibos de agua o planes de celular, para graficar funciones lineales partiendo de un valor inicial distinto de cero."
+      "justificacion": "Es una función de la forma y = mx + b. El costo fijo ($50.000) es el intercepto (b) y el costo por km ($2.000) es la pendiente (m). La gráfica debe empezar en 50.000 en el eje Y y subir.",
+      "rec_estudiante": "Aprender a identificar el valor fijo (intercepto Y) y el valor que varía (pendiente) en problemas de costos.",
+      "rec_docente": "Analizar recibos de servicios públicos locales que tengan cargo fijo y cargo por consumo."
     },
     {
       "id": 3,
-      "tema": "Funciones Lineales",
-      "dba": "DBA 3 (G11): Modela situaciones de variación con funciones.",
-      "nivel": "Propositivo",
-      "dificultad": "Baja",
+      "tema": "Funciones Trigonométricas (Periodo)",
+      "dba": "DBA 4 (G10): Reconoce características de las gráficas de funciones trigonométricas.",
+      "nivel": "Interpretativo",
+      "dificultad": "Alta",
       "clave": "B",
-      "justificacion": "y = mx + b. La pendiente constante indica una tasa de cambio uniforme.",
-      "rec_estudiante": "Diferenciar crecimiento lineal vs. exponencial.",
-      "rec_docente": "Analizar facturas de servicios públicos (cargo fijo + consumo)."
+      "justificacion": "El periodo determina cada cuánto se repite el ciclo de la función (ej. calidad del aire diaria). Si el periodo pedido es π, la función seno o coseno debe estar multiplicada por 2 en su argumento (ej. sin(2x)).",
+      "rec_estudiante": "Estudiar la fórmula del periodo T = 2π/B para las funciones y = A*sin(Bx).",
+      "rec_docente": "Usar simuladores o Geogebra para mostrar cómo al cambiar el valor de 'B' la onda se comprime o se estira."
     },
     {
       "id": 4,
-      "tema": "Función Exponencial",
-      "dba": "DBA 3 (G11): Analiza el crecimiento exponencial.",
-      "nivel": "Interpretativo",
+      "tema": "Ley de Senos",
+      "dba": "DBA 4 (G10): Aplica la ley de senos en la resolución de triángulos no rectángulos.",
+      "nivel": "Argumentativo",
       "dificultad": "Alta",
       "clave": "D",
-      "justificacion": "Crecimiento porcentual constante (P = P0 * (1+r)^t). Característico de poblaciones o intereses.",
-      "rec_estudiante": "Entender el interés compuesto y crecimiento poblacional.",
-      "rec_docente": "Usar ejemplos de virus/bacterias o crecimiento de seguidores en redes sociales."
+      "justificacion": "Conociendo un lado (10 km) y los ángulos adyacentes, se halla el tercer ángulo. Luego, usando la Ley de Senos: b/sin(B) = 10/sin(C), se despeja la distancia b.",
+      "rec_estudiante": "Recordar que la suma interna de los ángulos de un triángulo es 180° para hallar el ángulo faltante antes de aplicar la Ley de Senos.",
+      "rec_docente": "Plantear problemas de triangulación geográfica reales en mapas de la región."
     },
     {
       "id": 5,
-      "tema": "Función Cuadrática",
-      "dba": "DBA 3 (G11): Identifica características de gráficas (parábolas).",
-      "nivel": "Argumentativo",
+      "tema": "Geometría Analítica (Circunferencia)",
+      "dba": "DBA 5 (G10): Explora e infiere las características de las secciones cónicas.",
+      "nivel": "Propositivo",
       "dificultad": "Media",
-      "clave": "A",
-      "justificacion": "El vértice representa un máximo o mínimo. El eje de simetría divide la parábola.",
-      "rec_estudiante": "Hallar vértices y cortes con ejes sin depender de tabla de valores.",
-      "rec_docente": "Lanzamiento de proyectiles (conectar con Física)."
+      "clave": "C",
+      "justificacion": "La ecuación canónica es (x-h)² + (y-k)² = r². Con centro en (3,4) y radio 5, la ecuación queda: (x-3)² + (y-4)² = 25.",
+      "rec_estudiante": "Tener cuidado con los signos al reemplazar las coordenadas del centro (h,k) en la fórmula.",
+      "rec_docente": "Relacionar el radio al cuadrado (r²) de la ecuación de la circunferencia con el Teorema de Pitágoras."
     },
     {
       "id": 6,
-      "tema": "Periodo Trigonométrico",
-      "dba": "DBA 4 (G10): Reconoce características de funciones seno/coseno.",
-      "nivel": "Interpretativo",
-      "dificultad": "Alta",
-      "clave": "C",
-      "justificacion": "T = 2π / B. Determina la frecuencia de repetición de la onda.",
-      "rec_estudiante": "Visualizar cómo A, B, C afectan A*sin(Bx+C).",
-      "rec_docente": "Usar software (Geogebra) para modificar parámetros en vivo."
-    },
-    {
-      "id": 7,
-      "tema": "Geometría (Círculo)",
-      "dba": "DBA 5 (G10): Geometría Analítica.",
-      "nivel": "Propositivo",
-      "dificultad": "Media",
-      "clave": "B",
-      "justificacion": "(x-h)^2 + (y-k)^2 = r^2. Relaciona algebraicamente la forma geométrica.",
-      "rec_estudiante": "Completar cuadrados para hallar centro y radio.",
-      "rec_docente": "Diseñar logotipos usando ecuaciones de cónicas."
-    },
-    {
-      "id": 8,
-      "tema": "Estadística (Media)",
-      "dba": "DBA 2 (G11): Medidas de tendencia central.",
+      "tema": "Estadística (Media y Mediana)",
+      "dba": "DBA 2 (G11): Compara características de dos o más conjuntos de datos.",
       "nivel": "Interpretativo",
       "dificultad": "Baja",
       "clave": "A",
-      "justificacion": "Promedio simple: suma de datos dividido por el total.",
-      "rec_estudiante": "Calcular promedios con datos agrupados y no agrupados.",
-      "rec_docente": "Analizar notas reales de clase para ver el promedio."
+      "justificacion": "Suma: 10+0+5+20+15 = 50. Media = 50/5 = 10. Para la mediana, al ordenar (0, 5, 10, 15, 20), el valor central es 10.",
+      "rec_estudiante": "¡No olvidar! Para calcular la mediana, SIEMPRE se deben ordenar los datos primero de menor a mayor.",
+      "rec_docente": "Mostrar cómo un valor atípico (ej. 100 mm de lluvia) afecta drásticamente la media pero no la mediana."
+    },
+    {
+      "id": 7,
+      "tema": "Función Exponencial",
+      "dba": "DBA 3 (G11): Modela situaciones de crecimiento exponencial.",
+      "nivel": "Argumentativo",
+      "dificultad": "Media",
+      "clave": "A",
+      "justificacion": "La ecuación A = 2^t indica que la base es 2, lo que significa que el valor se multiplica por 2 (se duplica) por cada unidad de tiempo t.",
+      "rec_estudiante": "Diferenciar entre un crecimiento sumativo (lineal) y uno multiplicativo (exponencial).",
+      "rec_docente": "El juego de doblar una hoja de papel múltiples veces o historias de granos de arroz en un tablero de ajedrez."
+    },
+    {
+      "id": 8,
+      "tema": "Función Cuadrática (Parábola)",
+      "dba": "DBA 3 (G11): Identifica las características de las gráficas de funciones.",
+      "nivel": "Interpretativo",
+      "dificultad": "Baja",
+      "clave": "B",
+      "justificacion": "En el contexto de la gráfica de una trayectoria parabólica, el vértice representa el punto máximo (altura máxima en Y) y la coordenada X correspondiente es la distancia horizontal.",
+      "rec_estudiante": "Aprender a leer coordenadas cartesianas (x,y) e interpretar qué variable física representa cada eje.",
+      "rec_docente": "Conectar este análisis con los conceptos físicos del Movimiento Parabólico."
     },
     {
       "id": 9,
-      "tema": "Estadística (Mediana)",
-      "dba": "DBA 2 (G11): Interpretación de datos.",
-      "nivel": "Argumentativo",
-      "dificultad": "Media",
-      "clave": "C",
-      "justificacion": "Valor central al ordenar los datos de menor a mayor. Resistente a valores extremos.",
-      "rec_estudiante": "Diferenciar cuándo usar media vs. mediana (datos atípicos).",
-      "rec_docente": "Usar datos de salarios (desigualdad) para ver el efecto de la mediana."
+      "tema": "Optimización (Área de Rectángulo)",
+      "dba": "DBA 3 (G11): Usa funciones polinómicas para resolver problemas de áreas.",
+      "nivel": "Propositivo",
+      "dificultad": "Alta",
+      "clave": "D",
+      "justificacion": "Perímetro = 40, entonces 2x + 2y = 40, lo que da y = 20 - x. El área A = base * altura = x * (20 - x) = 20x - x².",
+      "rec_estudiante": "Practicar la sustitución de una variable usando el perímetro para dejar la ecuación de área en función de una sola incógnita.",
+      "rec_docente": "Usar un trozo de cuerda de longitud fija para mostrar que se pueden formar rectángulos con diferentes áreas."
     },
     {
       "id": 10,
       "tema": "Probabilidad Simple",
-      "dba": "DBA 2 (G11): Cálculo de probabilidades básicas.",
-      "nivel": "Propositivo",
-      "dificultad": "Baja",
-      "clave": "B",
-      "justificacion": "Probabilidad = Casos favorables / Casos totales.",
-      "rec_estudiante": "Diagramas de árbol y técnicas de conteo.",
-      "rec_docente": "Juegos de azar (dados, cartas) para calcular probabilidades."
+      "dba": "DBA 2 (G11): Resuelve problemas que requieren calcular probabilidades.",
+      "nivel": "Argumentativo",
+      "dificultad": "Media",
+      "clave": "C",
+      "justificacion": "Total de botones = 10. Botones que NO son verdes = 5 rojos + 3 azules = 8. Probabilidad = 8/10 = 0.8 (80%).",
+      "rec_estudiante": "Leer cuidadosamente las preguntas con negaciones (ej. 'NO sea verde'). Es útil usar el evento complemento (1 - Probabilidad de verde).",
+      "rec_docente": "Llevar bolsas con bolas de colores para realizar la extracción real empírica."
     },
     {
       "id": 11,
-      "tema": "Histograma (Stats)",
-      "dba": "DBA 2 (G11): Interpretación de gráficos estadísticos.",
+      "tema": "Estadística (Histogramas)",
+      "dba": "DBA 2 (G11): Lee e interpreta gráficos estadísticos de datos agrupados.",
       "nivel": "Interpretativo",
       "dificultad": "Media",
-      "clave": "D",
-      "justificacion": "El área de las barras representa la frecuencia de datos en intervalos continuos.",
-      "rec_estudiante": "Leer e interpretar ejes en histogramas de frecuencias.",
-      "rec_docente": "Analizar pirámides poblacionales del DANE."
+      "clave": "B",
+      "justificacion": "El problema especifica 15 plantas en la barra de 140-160 cm. El porcentaje se calcula: (15 / 50) * 100% = 30%.",
+      "rec_estudiante": "Recordar cómo se calcula un porcentaje: (Parte / Total) multiplicado por 100.",
+      "rec_docente": "Enseñar a tabular los datos obtenidos de un histograma antes de realizar los cálculos porcentuales."
     },
     {
       "id": 12,
-      "tema": "Desviación Estándar",
-      "dba": "DBA 2 (G11): Medidas de dispersión.",
-      "nivel": "Argumentativo",
-      "dificultad": "Alta",
+      "tema": "Estadística (Gráficos Circulares)",
+      "dba": "DBA 2 (G11): Relaciona la información de gráficos porcentuales con datos reales.",
+      "nivel": "Propositivo",
+      "dificultad": "Media",
       "clave": "A",
-      "justificacion": "Mide qué tan dispersos están los datos respecto al promedio. A mayor desviación, mayor variabilidad.",
-      "rec_estudiante": "Entender el concepto de 'variabilidad' y 'consistencia'.",
-      "rec_docente": "Comparar dos grupos de datos con igual promedio pero distinta dispersión."
+      "justificacion": "Si el área de Aguacate representa el 30% en el gráfico, el cálculo es: 10 hectáreas * 0.30 = 3 hectáreas.",
+      "rec_estudiante": "Tener claro que un gráfico circular siempre debe sumar 100% y que las proporciones se multiplican por el valor total real.",
+      "rec_docente": "Pedir a los estudiantes que construyan gráficos circulares a mano usando transportador (regla de 3 con 360°)."
     },
     {
       "id": 13,
-      "tema": "Percentiles",
-      "dba": "DBA 2 (G11): Medidas de posición no central.",
-      "nivel": "Interpretativo",
-      "dificultad": "Alta",
+      "tema": "Estadística (Gráficos de Barras)",
+      "dba": "DBA 2 (G11): Realiza comparaciones entre múltiples variables usando gráficos.",
+      "nivel": "Argumentativo",
+      "dificultad": "Baja",
       "clave": "C",
-      "justificacion": "Valor bajo el cual se encuentra un porcentaje específico de los datos (ej: P90 supera al 90%).",
-      "rec_estudiante": "Interpretar resultados de pruebas Saber 11 (percentiles).",
-      "rec_docente": "Analizar curvas de crecimiento infantil (peso/talla)."
+      "justificacion": "Se debe contrastar la altura de las dos barras (Producto A y B) trimestre a trimestre para validar cuál afirmación descriptiva es verdadera respecto al cruce de ventas.",
+      "rec_estudiante": "Leer detenidamente la leyenda (convenciones) del gráfico para no confundir cuál barra representa a qué producto.",
+      "rec_docente": "Analizar en clase por qué la elección del tipo de gráfico (barras vs líneas) influye en la facilidad para comparar datos."
     }
   ],
+
   "quimica": [
     {
       "id": 1,
