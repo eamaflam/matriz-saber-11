@@ -348,94 +348,94 @@
       "rec_docente": "Construir modelos tridimensionales con plastilina y palillos para visualizar cómo el reemplazo de un átomo cambia la familia de la molécula orgánica."
     }
   ],
-  "biologia": [
+"biologia": [
     {
       "id": 1,
-      "tema": "Ecología (DBO)",
-      "dba": "DBA 5 (G10): Dinámica de ecosistemas.",
+      "tema": "Ecología (DBO y Curva de Sag)",
+      "dba": "DBA 5 (G10): Analiza la dinámica de los ecosistemas y el impacto de la contaminación.",
       "nivel": "Interpretativo",
       "dificultad": "Alta",
-      "clave": "C",
-      "justificacion": "DBO alto indica contaminación orgánica; las bacterias consumen el oxígeno disuelto para degradar la materia.",
-      "rec_estudiante": "Relacionar calidad de agua con biodiversidad e indicadores químicos.",
-      "rec_docente": "Visita a planta de tratamiento o análisis de agua local."
+      "clave": "B",
+      "justificacion": "La descomposición orgánica consume el oxígeno disuelto en el agua (Curva de Sag), creando zonas anóxicas que son letales para los peces y otros organismos aeróbicos.",
+      "rec_estudiante": "Relacionar la calidad de agua con la biodiversidad e interpretar cómo los vertimientos orgánicos agotan el oxígeno.",
+      "rec_docente": "Visita a una planta de tratamiento o análisis de un cuerpo de agua local analizando la DBO."
     },
     {
       "id": 2,
-      "tema": "Redes Tróficas",
-      "dba": "DBA 5 (G10): Flujo de energía.",
-      "nivel": "Interpretativo",
-      "dificultad": "Baja",
-      "clave": "B",
-      "justificacion": "Las flechas indican la dirección del flujo de energía. Solo el 10% de la energía pasa al siguiente nivel.",
-      "rec_estudiante": "Dibujar redes tróficas locales (quién se come a quién).",
-      "rec_docente": "Juego de roles: 'La telaraña de la vida' con hilo."
-    },
-    {
-      "id": 3,
-      "tema": "Genética (Mendel)",
-      "dba": "DBA 3 (G11): Herencia y variabilidad.",
-      "nivel": "Argumentativo",
-      "dificultad": "Media",
-      "clave": "A",
-      "justificacion": "Cuadros de Punnett predicen probabilidades genotípicas y fenotípicas. La dominancia incompleta genera fenotipos intermedios.",
-      "rec_estudiante": "Practicar cruces genéticos y probabilidades (1:2:1).",
-      "rec_docente": "Usar rasgos físicos de la clase (lóbulo oreja, lengua) para ver frecuencias."
-    },
-    {
-      "id": 4,
-      "tema": "Osmosis (Celular)",
-      "dba": "DBA 4 (G11): Transporte membrana celular.",
-      "nivel": "Argumentativo",
-      "dificultad": "Alta",
-      "clave": "D",
-      "justificacion": "El agua se mueve de una zona de menor concentración de soluto a una de mayor concentración (hipotónico a hipertónico).",
-      "rec_estudiante": "Entender hipertónico, hipotónico e isotónico.",
-      "rec_docente": "Huevo en vinagre y luego en agua/miel (experimento clásico)."
-    },
-    {
-      "id": 5,
-      "tema": "Adaptación (Altitud)",
-      "dba": "DBA 1 (G11): Homeostasis y adaptación.",
-      "nivel": "Propositivo",
-      "dificultad": "Media",
-      "clave": "B",
-      "justificacion": "A mayor altitud hay menor presión de oxígeno, lo que estimula la producción de glóbulos rojos (aumento de hematocrito).",
-      "rec_estudiante": "Estudiar fisiología respiratoria y circulatoria básica.",
-      "rec_docente": "Analizar datos de deportistas entrenando en altura."
-    },
-    {
-      "id": 6,
-      "tema": "Selección Natural",
-      "dba": "DBA 1 (G11): Evolución de poblaciones.",
+      "tema": "Genética (Dominancia Incompleta)",
+      "dba": "DBA 3 (G11): Comprende cómo se transmite la herencia genética y su variabilidad.",
       "nivel": "Argumentativo",
       "dificultad": "Media",
       "clave": "C",
-      "justificacion": "Sobreviven los individuos con características ventajosas para su entorno, transmitiéndolas a su descendencia.",
-      "rec_estudiante": "Diferenciar entre adaptación individual y evolución poblacional.",
-      "rec_docente": "Simulación de 'picos de pinzones' con herramientas y semillas."
+      "justificacion": "En un cruce monohíbrido con dominancia incompleta (RB x RB), el resultado fenotípico y genotípico esperado es 25% RR (rasgo 1), 50% RB (rasgo intermedio) y 25% BB (rasgo 2).",
+      "rec_estudiante": "Practicar la elaboración de cuadros de Punnett y diferenciar entre dominancia completa e incompleta.",
+      "rec_docente": "Usar el cruce de flores de colores (ej. rojas y blancas que dan rosadas) para visualizar proporciones mendelianas y no mendelianas."
+    },
+    {
+      "id": 3,
+      "tema": "Biología Celular (Ósmosis y Plasmólisis)",
+      "dba": "DBA 4 (G11): Explica el transporte de sustancias a través de la membrana celular.",
+      "nivel": "Argumentativo",
+      "dificultad": "Alta",
+      "clave": "B",
+      "justificacion": "Por ósmosis, el agua sale del interior de la bacteria (menor concentración de soluto) hacia el medio hipertónico lleno de azúcar, causando la deshidratación y plasmólisis celular.",
+      "rec_estudiante": "Entender claramente los conceptos de medio hipertónico, hipotónico e isotónico y la dirección del flujo de agua.",
+      "rec_docente": "Realizar el experimento clásico de poner rodajas de papa o un huevo en agua con alta concentración de sal/azúcar."
+    },
+    {
+      "id": 4,
+      "tema": "Fisiología Humana (Aclimatación)",
+      "dba": "DBA 1 (G11): Analiza los mecanismos de homeostasis en los seres vivos.",
+      "nivel": "Propositivo",
+      "dificultad": "Media",
+      "clave": "B",
+      "justificacion": "Aclimatación: Ante la baja presión de oxígeno en la altura (hipoxia), el cuerpo compensa fisiológicamente produciendo una mayor cantidad de glóbulos rojos (policitemia fisiológica).",
+      "rec_estudiante": "Estudiar la relación entre el sistema respiratorio y el circulatorio para mantener el suministro de oxígeno.",
+      "rec_docente": "Analizar datos de rendimiento deportivo o adaptaciones de poblaciones que viven a gran altitud."
+    },
+    {
+      "id": 5,
+      "tema": "Evolución (Selección Natural)",
+      "dba": "DBA 1 (G11): Relaciona las mutaciones y la selección natural con la evolución.",
+      "nivel": "Argumentativo",
+      "dificultad": "Media",
+      "clave": "D",
+      "justificacion": "Selección Natural: Los individuos que ya poseen una resistencia preexistente (por variabilidad genética) sobreviven al factor de presión y se reproducen diferencialmente.",
+      "rec_estudiante": "Evitar el pensamiento lamarckiano; recordar que las poblaciones no 'mutan para sobrevivir', sino que sobreviven los que ya tienen la mutación ventajosa.",
+      "rec_docente": "Simular la selección natural usando semillas de diferentes tamaños y herramientas como 'picos' para ver quién sobrevive."
+    },
+    {
+      "id": 6,
+      "tema": "Ecología (Dinámica Trófica)",
+      "dba": "DBA 5 (G10): Explica el flujo de energía y materia en las redes tróficas.",
+      "nivel": "Interpretativo",
+      "dificultad": "Baja",
+      "clave": "B",
+      "justificacion": "Dinámica trófica: Si se elimina el depredador intermedio (serpiente), su presa directa (rana) aumenta por falta de control, mientras que el depredador superior (gavilán) disminuye por falta de alimento.",
+      "rec_estudiante": "Dibujar el diagrama de la red trófica y trazar qué sucede con los niveles superiores e inferiores al alterar un eslabón.",
+      "rec_docente": "Proponer análisis de casos reales de desequilibrio ecológico por introducción o extinción de especies locales."
     },
     {
       "id": 7,
-      "tema": "Ingeniería Genética",
-      "dba": "DBA 3 (G11): Aplicaciones biotecnológicas.",
+      "tema": "Biotecnología (Transgénicos)",
+      "dba": "DBA 3 (G11): Evalúa el impacto de las aplicaciones biotecnológicas.",
       "nivel": "Propositivo",
       "dificultad": "Alta",
-      "clave": "A",
-      "justificacion": "La modificación del ADN permite insertar genes de otras especies para conferir resistencia o producción de compuestos.",
-      "rec_estudiante": "Debate ético sobre transgénicos (OGM).",
-      "rec_docente": "Investigar casos reales (arroz dorado, insulina humana)."
+      "clave": "C",
+      "justificacion": "Los organismos transgénicos permiten el flujo directo de genes entre especies taxonómicamente muy distantes (ej. bacterias a plantas), algo que la naturaleza y la reproducción sexual tradicional no permiten.",
+      "rec_estudiante": "Diferenciar entre selección artificial (cruces tradicionales) e ingeniería genética (manipulación directa de ADN).",
+      "rec_docente": "Fomentar un debate estructurado sobre las ventajas y desventajas éticas y ambientales de los cultivos transgénicos."
     },
     {
       "id": 8,
-      "tema": "Fotosíntesis",
-      "dba": "DBA 4 (G11): Metabolismo celular.",
+      "tema": "Fisiología Vegetal (Fotosíntesis y Estomas)",
+      "dba": "DBA 4 (G11): Explica el metabolismo celular y la fotosíntesis.",
       "nivel": "Interpretativo",
       "dificultad": "Media",
       "clave": "B",
-      "justificacion": "Los cloroplastos captan energía lumínica. Los estomas regulan el intercambio gaseoso (CO2 y O2) y la transpiración.",
-      "rec_estudiante": "Ecuación general de la fotosíntesis (entradas y salidas).",
-      "rec_docente": "Observar estomas al microscopio (epidermis de hoja)."
+      "justificacion": "El cierre estomático en la hoja ayuda a la planta a ahorrar agua evitando la transpiración, pero bloquea simultáneamente el ingreso de CO2, lo que frena el proceso de fotosíntesis.",
+      "rec_estudiante": "Comprender la ecuación de la fotosíntesis y el rol físico de los estomas como válvulas de intercambio de gases.",
+      "rec_docente": "Observar la epidermis de diferentes hojas al microscopio (ej. aplicando esmalte transparente) para identificar los estomas."
     }
   ]
 }
