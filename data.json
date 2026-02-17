@@ -125,14 +125,14 @@
     },
     {
       "id": 2,
-      "tema": "Ley de Senos",
-      "dba": "DBA 4 (G10): Aplica leyes de senos y cosenos en triángulos oblicuángulos.",
-      "nivel": "Argumentativo",
-      "dificultad": "Alta",
-      "clave": "C",
-      "justificacion": "Relación a/sinA = b/sinB. Permite resolver triángulos no rectángulos.",
-      "rec_estudiante": "Practicar despeje de ecuaciones con funciones trigonométricas.",
-      "rec_docente": "Plantear problemas de navegación o triangulación geográfica."
+      "tema": "Función Lineal (Análisis de Gráficas)",
+      "dba": "DBA 3 (G11): Modela situaciones de variación con funciones.",
+      "nivel": "Interpretativo",
+      "dificultad": "Media",
+      "clave": "A",
+      "justificacion": "El problema describe una función de la forma y = mx + b, donde el costo fijo ($50.000) es el intercepto con el eje Y (b), y el costo por kilómetro ($2.000) es la   	pendiente positiva (m). La gráfica correcta debe iniciar en 50.000 y subir progresivamente.",
+      "rec_estudiante": "Aprender a identificar en un problema de la vida real cuál es el valor constante (intercepto) y cuál es el valor que varía (pendiente).",
+      "rec_docente": "Usar ejemplos cotidianos locales, como tarifas de taxis, recibos de agua o planes de celular, para graficar funciones lineales partiendo de un valor inicial distinto  	de cero."
     },
     {
       "id": 3,
