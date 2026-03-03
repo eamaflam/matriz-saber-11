@@ -476,6 +476,118 @@
       "rec_estudiante": "Recomendación estudiante.",
       "rec_docente": "Recomendación docente."
     }
+  ],
+"fisica 2": [
+    {
+      "id": 1,
+      "tema": "Cinemática (MRUA - Aceleración)",
+      "dba": "Comprende que el reposo o el movimiento rectilíneo uniforme se presentan cuando las fuerzas aplicadas sobre el sistema se anulan.",
+      "nivel": "Interpretativo",
+      "dificultad": "Media",
+      "clave": "B",
+      "justificacion": "Al frenar avanzando hacia adelante, la velocidad disminuye en el tiempo, lo que se traduce en un cambio de velocidad negativo (vector aceleración opuesto al avance).",
+      "rec_estudiante": "Recordar que la aceleración es un vector; si un objeto frena mientras avanza, la aceleración debe tener el signo opuesto a la velocidad.",
+      "rec_docente": "Usar representaciones visuales conjuntas de los vectores de velocidad y aceleración en situaciones de frenado frente a situaciones de arranque."
+    },
+    {
+      "id": 2,
+      "tema": "Cinemática (MRUA - Proporcionalidad)",
+      "dba": "Modela matemáticamente el movimiento de objetos cotidianos a partir de las relaciones de proporcionalidad entre variables cinemáticas.",
+      "nivel": "Argumentativo",
+      "dificultad": "Media",
+      "clave": "C",
+      "justificacion": "Basado en a = Δv/t. Si la Chiva A cambia su velocidad hasta cero en menos tiempo (denominador menor), la magnitud matemática de su aceleración es mayor.",
+      "rec_estudiante": "Analizar la fórmula a = Δv/t y comprender la relación inversamente proporcional que existe entre la magnitud de la aceleración y el tiempo.",
+      "rec_docente": "Realizar ejercicios comparativos alterando solo el denominador (tiempo) para que el estudiante deduzca el comportamiento de la fracción completa."
+    },
+    {
+      "id": 3,
+      "tema": "Dinámica/Cinemática (MRU)",
+      "dba": "Comprende que el reposo o el MRU se presentan cuando las fuerzas se anulan y la aceleración es cero.",
+      "nivel": "Argumentativo",
+      "dificultad": "Baja",
+      "clave": "B",
+      "justificacion": "La aceleración es la tasa de cambio de velocidad. Si un objeto viaja a velocidad constante, su cambio es nulo (0), por ende, su aceleración es cero.",
+      "rec_estudiante": "No confundir el concepto de 'ir muy rápido' (velocidad alta) con el concepto de acelerar. Acelerar requiere estrictamente que la velocidad cambie.",
+      "rec_docente": "Hacer hincapié en el error conceptual común graficando v vs t para velocidad constante y demostrando que su pendiente (aceleración) es horizontal (cero)."
+    },
+    {
+      "id": 4,
+      "tema": "Movimiento Semiparabólico (Independencia de Movimientos)",
+      "dba": "Comprende que el movimiento de un cuerpo es una superposición de movimientos independientes (Principio de inercia y gravedad).",
+      "nivel": "Argumentativo",
+      "dificultad": "Media",
+      "clave": "C",
+      "justificacion": "El tiempo de caída y la velocidad en Y dependen únicamente de la gravedad (g) y la altura (h). El movimiento constante horizontal (eje X) no interfiere en absoluto con la aceleración vertical.",
+      "rec_estudiante": "Aprender a separar mentalmente lo que ocurre en el eje vertical (caída libre) de lo que ocurre en el eje horizontal (MRU constante).",
+      "rec_docente": "Apoyarse en simulaciones virtuales (como PhET) o videos reales del experimento de las dos esferas (una disparada y otra dejada caer) para quebrar la falsa intuición visual."
+    },
+    {
+      "id": 5,
+      "tema": "Movimiento Semiparabólico / Caída Libre",
+      "dba": "Utiliza herramientas matemáticas para describir relaciones de variables en sistemas físicos.",
+      "nivel": "Propositivo",
+      "dificultad": "Alta",
+      "clave": "B",
+      "justificacion": "Según t = √(2h/g), al cuadruplicar la altura (4h), matemáticamente se tiene t' = √(2(4h)/g) = √4 * √(2h/g) = 2 * t. El tiempo se duplica, no se cuadruplica.",
+      "rec_estudiante": "Repasar las propiedades algebraicas de la radicación y entender que una relación cuadrática implica que cambios lineales en una variable no causan cambios lineales en la otra.",
+      "rec_docente": "Practicar despejes en ecuaciones cinemáticas de segundo grado, enfatizando el significado físico de que la variable esté dentro de una raíz cuadrada."
+    },
+    {
+      "id": 6,
+      "tema": "Caída Libre (Independencia de la Masa)",
+      "dba": "Comprende que en ausencia de fuerzas resistivas, todos los cuerpos caen con la misma aceleración.",
+      "nivel": "Interpretativo",
+      "dificultad": "Baja",
+      "clave": "C",
+      "justificacion": "La aceleración de la gravedad (g) sobre cualquier objeto cercano a la Tierra es constante e independiente de su masa inercial. Sin resistencia del aire, caen igual.",
+      "rec_estudiante": "Recordar el experimento de los astronautas en la Luna donde dejaron caer una pluma y un martillo y tocaron el suelo exactamente al mismo tiempo.",
+      "rec_docente": "Abordar frontalmente el sesgo aristotélico demostrando cómo la resistencia del aire es la única variable que hace caer más lento a objetos livianos y con mucha área superficial."
+    },
+    {
+      "id": 7,
+      "tema": "Dinámica (Primera Ley de Newton - Inercia)",
+      "dba": "Explica situaciones cotidianas utilizando las leyes de Newton (Primera ley o Inercia).",
+      "nivel": "Argumentativo",
+      "dificultad": "Baja",
+      "clave": "C",
+      "justificacion": "Al frenar el bus, no aparece ninguna fuerza 'hacia adelante'. Es el cuerpo del pasajero tendiendo a mantener su estado de movimiento rectilíneo previo debido a su propia inercia.",
+      "rec_estudiante": "Identificar que la inercia no es una fuerza externa empujando tu cuerpo, sino la propiedad de tu propia masa resistiéndose a cambiar la velocidad que ya llevabas.",
+      "rec_docente": "Usar el análisis de marcos de referencia inerciales y no inerciales; mostrar a los alumnos cómo se ve el pasajero desde alguien parado en la acera (marco inercial)."
+    },
+    {
+      "id": 8,
+      "tema": "Dinámica (Inercia en curva)",
+      "dba": "Explica el movimiento de los cuerpos a partir de la inercia vectorial (Primera ley de Newton).",
+      "nivel": "Interpretativo",
+      "dificultad": "Media",
+      "clave": "B",
+      "justificacion": "Si el objeto está suelto en la curva, desaparece la fuerza de fricción que le aportaba aceleración centrípeta. Por tanto, su inercia lo hará continuar en una trayectoria recta y tangente a la curva.",
+      "rec_estudiante": "Tener extremo cuidado con el espejismo de la llamada 'fuerza centrífuga'. La inercia de un cuerpo en movimiento siempre apuntará como una línea recta tangente a su giro.",
+      "rec_docente": "Proponer actividades cinestésicas, como hacer girar una cuerda con una pequeña masa y pedirles que predigan la trayectoria exacta si la cuerda se corta de forma sorpresiva."
+    },
+    {
+      "id": 9,
+      "tema": "Dinámica (Equilibrio - 1ra y 2da Ley)",
+      "dba": "Modela matemáticamente sistemas mecánicos en equilibrio translacional dinámico.",
+      "nivel": "Argumentativo",
+      "dificultad": "Media",
+      "clave": "C",
+      "justificacion": "Si la velocidad es constante, la aceleración es matemáticamente cero. Aplicando la Segunda Ley (ΣF = ma), si a=0, entonces la sumatoria de fuerzas neta sobre el sistema debe ser obligatoriamente cero.",
+      "rec_estudiante": "Vincular firmemente estas ideas: Velocidad Constante = No hay Aceleración = Equilibrio = Suma de fuerzas neta igual a Cero.",
+      "rec_docente": "Diseñar problemas trampa donde haya movimiento (MRU) sin que exista ninguna fuerza neta desbalanceada, para eliminar el preconcepto de que todo movimiento requiere fuerza."
+    },
+    {
+      "id": 10,
+      "tema": "Dinámica (Diagramas de Cuerpo Libre - DCL)",
+      "dba": "Representa y analiza diagramas de cuerpo libre reconociendo la naturaleza geométrica de las fuerzas de contacto.",
+      "nivel": "Propositivo",
+      "dificultad": "Alta",
+      "clave": "A",
+      "justificacion": "Por definición geométrica, la fuerza Normal es perpendicular (90 grados) a la superficie de apoyo. La fuerza de rozamiento cinético es siempre paralela a dicha superficie y opuesta a la dirección del movimiento.",
+      "rec_estudiante": "Al dibujar en un plano inclinado, es vital rotar el eje de coordenadas X y Y para que encajen paralelos y perpendiculares a la rampa antes de pintar la Normal o el Rozamiento.",
+      "rec_docente": "Insistir en el paso a paso riguroso del Diagrama de Cuerpo Libre. Evaluar formativamente la dirección aislada de los vectores Normal y Fricción antes de permitir ecuaciones analíticas."
+    }
   ]
 
 }
